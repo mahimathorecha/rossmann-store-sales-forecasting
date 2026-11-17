@@ -2,7 +2,9 @@
 
 ## 1. Project Overview
 
-This project focuses on forecasting daily sales for Rossmann retail stores using historical sales data, store information, promotions, and calendar-related features. The goal is to build a reliable forecasting solution that helps analyze store performance, understand sales patterns, and predict future sales.
+This project focuses on forecasting daily sales for Rossmann retail stores using historical sales data, store information, promotions, and calendar-related features.
+
+The goal is to build a reliable forecasting solution that helps analyze store performance, understand sales patterns, and predict future sales.
 
 ## 2. Project Objectives
 
@@ -25,7 +27,7 @@ Main data files:
 - `store.csv` - Store-related information.
 - `sample_submission.csv` - Expected submission format.
 
-**Data management:** Dataset files are managed using DVC. The repository contains the `Data.dvc` tracking file.
+**Data management:** Dataset files are managed using DVC. The repository contains the `Data.dvc` tracking file, while the actual data is stored on DagsHub.
 
 ## 4. Technologies Used
 
@@ -45,23 +47,31 @@ Main data files:
 
 ```text
 P6/
-|-- .dvc/
-|-- Notebooks/
-|   |-- 01_data_exploration.ipynb
-|   |-- 02_sales_modelling.ipynb
-|   |-- 03_lstm_forecasting.ipynb
-|   |-- 04_customer_forecasting.ipynb
-|   |-- README.md
-|-- Reports/
-|   |-- figures/
-|   |-- tables/
-|-- Data.dvc
-|-- app.py
-|-- log_model_artifacts.py
-|-- track_experiments.py
-|-- Project 6.pdf
-|-- .gitignore
-|-- .dvcignore
+│
+├── .dvc/
+├── Data/
+├── Download/
+├── Logs/
+├── mlruns/
+├── Models/
+├── Notebooks/
+├── predictions/
+├── Reports/
+│   ├── figures/
+│   └── tables/
+├── Src/
+│
+├── .dvcignore
+├── .gitignore
+├── app.py
+├── Data.dvc
+├── Models.dvc
+├── log_model_artifacts.py
+├── mlflow.db
+├── Project 6.pdf
+├── README.md
+├── requirements.txt
+└── track_experiments.py
 ```
 
 ## 6. Model Development
