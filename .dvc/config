@@ -1,0 +1,4 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/mahimathorecha/rossmann-store-sales-forecasting.dvc
