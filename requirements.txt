@@ -1,0 +1,26 @@
+
+# Data analysis
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.18.0
+matplotlib==3.10.9
+seaborn==0.13.2
+plotly==7.1.0
+openpyxl==3.1.5
+
+# Machine learning
+scikit-learn==1.9.0
+catboost==1.2.10
+joblib==1.5.3
+torch==2.14.1+cpu
+
+# Dashboard
+streamlit==1.65.0
+
+# Experiment tracking and data versioning
+mlflow==3.17.0
+dvc==3.67.1
+
+# Jupyter notebooks
+jupyter==1.1.1
+ipykernel==6.29.5
