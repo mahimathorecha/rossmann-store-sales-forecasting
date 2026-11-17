@@ -1,0 +1,4 @@
+Series,ADF_statistic,p_value,Lags_used,Observations,Reject_unit_root_5pct
+Original sales,-4.340030322503297,0.0003784104197930507,21,836,True
+First difference,-10.556874560356396,7.91061168757944e-19,20,836,True
+Weekly difference,-10.86547336558814,1.4111198210139934e-19,20,830,True

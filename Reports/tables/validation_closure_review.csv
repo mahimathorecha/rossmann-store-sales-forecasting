@@ -1,0 +1,3 @@
+Store,Closed_from,Closed_through,Recorded_closed_days,Sales_day_before,Sales_day_after,Continues_to_data_end
+292,2015-07-11,2015-07-31,21,1012,,True
+909,2015-07-02,2015-07-17,16,3547,16051.0,False

@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# DVC-managed data and models
+Download/
+Models/
+models/
+predictions/
+
+# MLflow local database and runs
+mlflow.db
+mlruns/
+
+# Logs and temporary files
+Logs/
+*.log
+.ipynb_checkpoints/
+
+# Local operating-system files
+.DS_Store
+Thumbs.db
+/Data

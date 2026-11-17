@@ -1,0 +1,5 @@
+Store_group,Weekend_day,Records,Stores,Mean_sales_all_days,Mean_sales_open_days,Open_rate_pct
+Always open on recorded weekdays,Saturday,1340,10,10004.731343283582,10004.731343283582,100.0
+Always open on recorded weekdays,Sunday,1340,10,13249.494776119403,13249.494776119403,100.0
+Other stores,Saturday,143390,1105,5808.713264523328,5836.064091425048,99.53134807169258
+Other stores,Sunday,143390,1105,82.27289211242068,5236.178428761651,1.571239277494944
